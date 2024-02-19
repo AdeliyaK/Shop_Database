@@ -85,10 +85,10 @@ for each row
 	update is_in_stock
     Set All_number = All_number -new.number_of_products
     where new.ID_product_=ID_product and ID_shop=(Select ID_shop
-												from Employee
-												where ID=(Select ID_Employed
-															from one_order
-															where Number_of_the_order =new.Order_Number_of_the_order));
+						  from Employee
+						  where ID=(Select ID_Employed
+							    from one_order
+							    where Number_of_the_order =new.Order_Number_of_the_order));
 
 
 DELIMITER //
