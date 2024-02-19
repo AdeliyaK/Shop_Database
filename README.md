@@ -10,7 +10,7 @@
 
 ## Task 2: DDL Queries for SQL Implementation of the Designed Schema
 
-### Compose a set of Data Definition Language (DDL) queries in SQL to implement the relational database schema designed in Task 1.
+#### Compose a set of Data Definition Language (DDL) queries in SQL to implement the relational database schema designed in Task 1.
 
 ## Task 3: DML Queries for SQL with the Following Reports:
 
